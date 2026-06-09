@@ -2,10 +2,6 @@ name: Update Demo ODG Instance Configuration
 
 on:
   workflow_dispatch:
-    inputs:
-      bootstrapping-version:
-        type: string
-        required: true
 
 jobs:
   update-odg-instance-cfg:
