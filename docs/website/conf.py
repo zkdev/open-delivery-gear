@@ -13,7 +13,7 @@ author = 'ODG Team'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['myst_parser', 'sphinx_design']
+extensions = ['myst_parser', 'sphinx_design', 'sphinxcontrib.mermaid']
 
 # MyST-Parser configuration
 source_suffix = {
@@ -24,6 +24,7 @@ source_suffix = {
 # Enable MyST extensions for sphinx-design
 myst_enable_extensions = [
     "colon_fence",  # ::: syntax for directives
+    "mermaid",      # mermaid diagram support
 ]
 
 templates_path = ['_templates']
