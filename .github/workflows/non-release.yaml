@@ -14,6 +14,12 @@ jobs:
     with:
       mode: snapshot
 
+  website-build:
+    name: Build Website
+    uses: ./.github/workflows/website-build.yaml
+    permissions:
+      contents: read
+
   component-descriptor:
     uses: gardener/cc-utils/.github/workflows/post-build.yaml@v1
     needs:
