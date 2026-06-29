@@ -34,7 +34,7 @@ Please skip to [Security and Compliance Automation with ODG](#security-and-compl
 ```
 
 ODG is built upon the semantic model of OCM.
-The following sections elaborate on the semantic model of OCM, and provide motivation and explanation for the rationales behind it.
+The following sections elaborate on the semantic model of OCM, and provide motivation and explanation for the rationale behind it.
 
 ### Why it matters
 
