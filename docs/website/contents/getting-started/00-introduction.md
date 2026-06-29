@@ -30,7 +30,7 @@ Let's start by elaborating on the fundamentals and core principles of OCM.
 
 ```{note}
 Already familiar with OCM?
-Please skip to "Security and Compliance Automation with ODG"
+Please skip to [Security and Compliance Automation with ODG](#security-and-compliance-automation-with-odg)
 ```
 
 ODG is built upon the semantic model of OCM.
